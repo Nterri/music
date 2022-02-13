@@ -351,7 +351,7 @@ body.lock {
 }
 
 .start {
-  background: url(/png/background.png) center/cover no-repeat;
+  background: url(../png/background.png) center/cover no-repeat;
 }
 
 .start__container {
@@ -728,7 +728,7 @@ body.lock {
 }
 
 .title::before {
-  content: url(/svg/titleImg.svg);
+  content: url(../svg/titleImg.svg);
   margin: 0 30px 0 0;
 }
 
@@ -958,7 +958,7 @@ body.lock {
 }
 
 .mtv__text {
-  background: url(/svg/“.svg) 0 0 no-repeat;
+  background: url(../svg/“.svg) 0 0 no-repeat;
   font-size: 18px;
   line-height: 27px;
 }
@@ -1239,7 +1239,7 @@ body.lock {
 }
 
 .tracklist__follow-spotify::before {
-  content: url(/svg/spotify.svg);
+  content: url(../svg/spotify.svg);
 }
 
 @media (min-width: 1024px) {
@@ -1265,7 +1265,7 @@ body.lock {
 }
 
 .tracklist__follow-itunes::before {
-  content: url(/svg/itunes.svg);
+  content: url(../svg/itunes.svg);
 }
 
 @media (min-width: 1024px) {
@@ -1795,7 +1795,7 @@ body.lock {
 
 .slick-arrow.slick-prev {
   border-radius: 0 20px;
-  background: url(/svg/prev.svg) 50% 50% no-repeat;
+  background: url(../svg/prev.svg) 50% 50% no-repeat;
   -webkit-transform: translate(-50px, -50%);
           transform: translate(-50px, -50%);
 }
@@ -1816,7 +1816,7 @@ body.lock {
 }
 
 .slick-arrow.slick-next {
-  background: url(/svg/next.svg) 50% 50% no-repeat;
+  background: url(../svg/next.svg) 50% 50% no-repeat;
 }
 
 @media (min-width: 1301px) {
