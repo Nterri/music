@@ -163,9 +163,11 @@ function end2() {
 const tracks = document.querySelectorAll('.track2');
 tracks.forEach((track, index) => {
     track.addEventListener('click', () => {
+        tracks.forEach(track => { track.classList.remove('track-active'); })
         audio2.src = `mp3/track${index}.mp3`;
         const duration = audio2.duration;
         pauseSong();
         playSong2();
+        track.classList.add('track-active');
     })
 });
